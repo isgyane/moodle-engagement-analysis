@@ -57,3 +57,4 @@ FROM (
 ) AS subquery
 GROUP BY activity_name
 ORDER BY activity_name;
+
