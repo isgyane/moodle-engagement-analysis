@@ -6,6 +6,7 @@
 # Verken Files added
 queries/test.sql
 db_connection.py
+output.xlsx
 
 # User-specific files
 *.rsuser

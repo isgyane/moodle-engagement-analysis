@@ -1,13 +1,13 @@
 import os
 import pandas as pd
-from db_connection import get_connection
+from db_connection import create_connection
 
-# Folder where your SQL files are stored
+# Folder where SQL files are stored
 QUERY_FOLDER = "queries"
 OUTPUT_FILE = "output.xlsx"
 
 def run_queries():
-    conn = get_connection()
+    conn = create_connection()
     writer = pd.ExcelWriter(OUTPUT_FILE, engine='xlsxwriter')
 
     for file_name in os.listdir(QUERY_FOLDER):
