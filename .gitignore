@@ -5,6 +5,7 @@
 
 # Verken Files added
 queries/test.sql
+db_connection.py
 
 # User-specific files
 *.rsuser

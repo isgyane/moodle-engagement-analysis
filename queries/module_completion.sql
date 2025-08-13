@@ -5,8 +5,8 @@ SELECT
     COUNT(cmc.id) AS modules_completed,
     total_modules.total AS total_relevant_modules,
     ROUND(
-        (COUNT(cmc.id) / total_modules.total) * 100,
-        2
+        (COUNT(cmc.id) / total_modules.total),
+        4
     ) AS completion_rate_percent
 FROM mdlvu_course_modules_completion cmc
 JOIN mdlvu_course_modules cm 
