@@ -127,7 +127,7 @@ ORDER BY last_access DESC;
 
 <br/>
 
-## 📊 Sample Insights
+## 📊 Some Insights I care about
 
 * % of students who completed each module
 * Students who haven’t logged in for 14+ days
@@ -139,7 +139,7 @@ ORDER BY last_access DESC;
 ## 💡 Future Enhancements
 
 * Automate queries into **scheduled reports**
-* Integrate with **Power BI / Tableau** dashboards
+* Integrate with **Power BI / Tableau / Excel** dashboards
 * Build a **Python script** to export reports weekly
 * Explore **AI-driven predictions** for dropout risks
 
